@@ -1,5 +1,5 @@
-# ![My-portfolio](https://hamsoace.github.io/Pizza-on-dial/images/pizza.png)
-# portfolio
+# ![Pizza On Dial](https://hamsoace.github.io/Pizza-on-dial/images/pizza.png)
+# Pizza On Dial
 <table>
 <tr>
 <td>
