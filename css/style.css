@@ -1,5 +1,5 @@
 :root {
-  --mainPink: #C81717;
+  --mainMaroon: #C81717;
   --mainYellow: rgb(249, 228, 148);
   --mainWhite: #fff;
   --mainBlack: #000;
@@ -12,3 +12,43 @@ body {
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+.toggler-icon{
+  font-size: 2rem;
+  color: var(--mainMaroon);
+}
+
+.nav-link{
+  color: var(--mainMaroon);
+  transition: all 2s ease-in-out;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover{
+  color: var(--mainBlack);
+}
+
+.cart-info-icon{
+  color: var(--mainBlack);
+  cursor: pointer;
+}
+
+.cart-info{
+  border: 0.1rem solid var(--mainBlack);
+  color: black;
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+
+.cart-info:hover{
+  background: var(--mainMaroon);
+  border-color: var(--mainMaroon);
+  color: white;
+}
+
+
