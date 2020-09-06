@@ -64,3 +64,24 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
+.banner{
+  color: white;
+  margin-top: -4rem;
+}
+
+.banner-link{
+  font-size: 1.5rem;
+  color: black;
+  border: 0.2rem solid black;
+}
+
+.banner-title{
+  color: var(--mainMaroon);
+  font-size: 3rem;
+}
+
+.banner-link:hover{
+  background: black;
+  color: var(--mainMaroon);
+}
