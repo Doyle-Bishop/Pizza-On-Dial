@@ -170,3 +170,16 @@ body {
 .store-item-icon:hover{
   color: white;
 }
+
+.services{
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pizza-rest.jpg");
+}
+
+.service-title{
+  letter-spacing: 0.5rem;
+}
+
+.service-text{
+  word-spacing: 0.5rem;
+}
