@@ -208,3 +208,132 @@ body {
 .footer-icon:hover{
   color: var(--mainMaroon);
 }
+
+.popup{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+/* .container{
+  display: flex;
+  color: white;
+  font-weight: bold;
+} */
+
+.desc{
+  margin: 10px;
+display: block;
+/* background-color: white;  */
+width: 600px;
+padding: 20px;
+text-align: center;
+color: rgb(247, 241, 241);
+font-weight: bolder;
+}
+
+.popup-wrap{
+  display: flex;
+  flex-direction: row;
+}
+
+.popup-left{
+  width: 300px;
+  height: 450px;
+  background-image: url("../images/1.png");
+  background-size: cover;
+} 
+
+.popup-right{
+  width: 370px;
+  height: 450px;
+  background: white;
+  position: relative;
+}
+
+.close{
+  position: absolute;
+  font-size: 20px;
+  right: 15px;
+  top: -12px;
+  cursor: pointer;
+}
+
+.popup-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-right form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.popup-right form .field{
+  border: none;
+  outline: none;
+  border-bottom: solid 1px black;
+  padding: 10px;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+ .popup-right form .submit-btn{
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  background: rgb(7, 77, 6);
+  color: white;
+  font-size: 15px;
+  letter-spacing: .5px;
+  margin: 25px;
+  cursor: pointer;
+ } 
+
+@keyframes popup-bg{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+@keyframes popup{
+  0%{
+      transform: scale(0.7, 0.7);
+  }
+  100%{
+      transform: scale(1, 1);
+  }
+}
+
+@keyframes popup-close{
+  0%{
+      transform: scale(1, 1);
+  }
+  100%{
+      transform: scale(0.7, 0.7);
+      opacity: 0;
+  }
+}
+
+@media screen and (max-width:700px){
+  .popup-left{
+      display: none;
+  }
+  .popup-right{
+      max-width: 370px;
+      width: 80vw;
+  }
+}
