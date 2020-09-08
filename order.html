@@ -21,8 +21,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h3 id="form-title">Make Order</h3>
-          <hr />
+            <h1 class="text-capitalize">
+                Make <strong class="banner-title">Order</strong>
+              </h1>          <hr />
           <form id="pizza-form">
             <div class="form-group">
               <label for="type">Type</label>
@@ -33,7 +34,8 @@
                 <option value="hawaaian">Hawaiian</option>
               </select>
             </div>
-            <div class="form-group">
+            <div class="form-group"> 
+                <!-- 384224372 -->
               <label for="size">Size</label>
               <select class="form-control" id="size" required>
                 <option value="">...</option>
@@ -59,12 +61,14 @@
                 <option value="thin">Thin</option>
               </select>
             </div>
-            <button type="submit" class="btn btn-primary">Add</button>
+            <button type="submit" class="btn btn-black text-uppercase">Add</button>
           </form>
           <br />
         </div>
         <div class="col-md-8 hidden" id="orders-div">
-          <h3>Your Orders</h3>
+          <h3 class="text-capitalize">
+            Your <strong class="banner-title">Orders</strong>
+          </h3>  
           <table class="table table-striped">
             <thead>
               <tr>
@@ -84,7 +88,7 @@
             Total: Ksh. <span id="total-amount"></span>
           </p>
           <br /><br />
-          <button class="btn btn-primary hidden" id="checkout">Checkout</button>
+          <button class="btn btn-black text-uppercase hidden" id="checkout">Checkout</button>
         </div>
       </div>
     </div>
@@ -111,7 +115,7 @@
           </select>
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-black text-uppercase">Submit</button>
       </form>
     </div>
 
@@ -139,7 +143,7 @@
           />
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-black text-uppercase">Submit</button>
       </form>
     </div>
     <script

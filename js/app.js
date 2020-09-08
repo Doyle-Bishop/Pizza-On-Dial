@@ -13,7 +13,7 @@ $(document).ready(function () {
   Pizza.prototype.getToppingPrice = function () {
     if (this.size === "large") {
       if (this.topping === "pepperoni") {
-        return 150;
+        return "Kshs.150";
       } else if (this.topping === "mushroom") {
         return 120;
       } else {

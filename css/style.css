@@ -220,14 +220,17 @@ form{
 }
 
 form .form-group{
-  width: 100%;
-  border: none;
-  outline: none;
+  width: 80%;
   border-bottom: solid 1px black;
   padding: 10px;
   margin: 10px 0;
   letter-spacing: 1px;
   font-size: 12px;
+}
+
+form .form-group select{
+  border: 0;
+  outline: 0;
 }
 
  form .submit-btn{
@@ -302,7 +305,7 @@ th {
   padding: 20px;
   width: 40%;
   height: 60vh;
-  background: aqua;
+  background: var(--redTrans);
   position: absolute;
   top: 50%;
   left: 50%;
