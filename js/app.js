@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   function Pizza(type, size, topping, crust) {
     this.type = type;
@@ -187,4 +186,5 @@ $(document).ready(function () {
     alert(customerName + ": Your total bill is Ksh. " + totalCost + ". Your order will be delivered to "+ estate + ", " + houseNumber +" in the next 2 hours" );
   });
 });
+
 
