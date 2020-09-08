@@ -132,6 +132,10 @@ body {
   color: black;
 }
 
+.single-item img{
+  height: 250px;
+}
+
 .single-item {
   transition: all 0.3 linear;
 }
