@@ -209,76 +209,15 @@ body {
   color: var(--mainMaroon);
 }
 
-.popup{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
-}
 
-/* .container{
-  display: flex;
-  color: white;
-  font-weight: bold;
-} */
-
-.desc{
-  margin: 10px;
-display: block;
-/* background-color: white;  */
-width: 600px;
-padding: 20px;
-text-align: center;
-color: rgb(247, 241, 241);
-font-weight: bolder;
-}
-
-.popup-wrap{
-  display: flex;
-  flex-direction: row;
-}
-
-.popup-left{
-  width: 300px;
-  height: 450px;
-  background-image: url("../images/1.png");
-  background-size: cover;
-} 
-
-.popup-right{
-  width: 370px;
-  height: 450px;
-  background: white;
-  position: relative;
-}
-
-.close{
-  position: absolute;
-  font-size: 20px;
-  right: 15px;
-  top: -12px;
-  cursor: pointer;
-}
-
-.popup-right{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.popup-right form{
+form{
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 70%;
 }
 
-.popup-right form .field{
+form .field{
   border: none;
   outline: none;
   border-bottom: solid 1px black;
@@ -288,7 +227,7 @@ font-weight: bolder;
   font-size: 12px;
 }
 
- .popup-right form .submit-btn{
+ form .submit-btn{
   border: none;
   outline: none;
   padding: 10px 30px;
@@ -337,3 +276,34 @@ font-weight: bolder;
       width: 80vw;
   }
 }
+
+.total-amount, .delivery-cost {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+.hidden {
+  display: none;
+}
+
+.checkout-options, .location {
+  z-index: 3;
+  border-radius: 15px;
+  padding: 20px;
+  width: 40%;
+  height: 60vh;
+  background: aqua;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn a{
+  color: black;
+}
+
+.btn a:hover{
+  text-decoration: none;
+}
+
