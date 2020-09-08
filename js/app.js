@@ -48,7 +48,7 @@ $(document).ready(function () {
 
   Pizza.prototype.getTypePrice = function () {
     if (this.size === "large") {
-      if (this.type === "chicken tikka") {
+      if (this.type === "BBQ") {
         return 1200;
       } else if (this.type === "peri peri") {
         return 1300;
@@ -56,7 +56,7 @@ $(document).ready(function () {
         return 1100;
       }
     } else if (this.size === "medium") {
-      if (this.type === "chicken tikka") {
+      if (this.type === "BBQ") {
         return 850;
       } else if (this.type === "peri peri") {
         return 950;
@@ -64,7 +64,7 @@ $(document).ready(function () {
         return 750;
       }
     } else {
-      if (this.type === "chicken tikka") {
+      if (this.type === "BBQ") {
         return 600;
       } else if (this.type === "peri peri") {
         return 650;

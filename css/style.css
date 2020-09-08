@@ -214,10 +214,13 @@ form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 100%;
+  border: 1px solid var(--mainGrey);
+  box-shadow: 2px var(--mainGrey);
 }
 
-form .field{
+form .form-group{
+  width: 100%;
   border: none;
   outline: none;
   border-bottom: solid 1px black;
@@ -275,6 +278,13 @@ form .field{
       max-width: 370px;
       width: 80vw;
   }
+}
+
+tr:nth-child(even){background-color: var(--yellowTrans)}
+
+th {
+  background-color: var(--mainMaroon);
+  color: white;
 }
 
 .total-amount, .delivery-cost {
